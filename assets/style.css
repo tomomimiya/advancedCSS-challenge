@@ -45,8 +45,9 @@ main {
     color: beige;
 }
 .sub-container:hover {
-    color: red;
+    color: purple;
     border: black;
+    border: 3px solid rgb(173, 236, 110);
 }
 .sub-container {
     margin-right: 20px;
