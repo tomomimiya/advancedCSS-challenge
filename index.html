@@ -1,62 +1,59 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-  <head>
+<head>
     <meta charset="UTF-8" />
     <title>advanced css portfolio assingment module 2: making website similar to given mockup</title>
     <link rel="stylesheet" href="./assets/style.css">
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
         <h1>TomomiMiya</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href= "#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href= "#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-            </ul>
+            <a href="#about-me">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact-me">Contact Me</a>
         </nav>
     </header>
 
-    <section class="hero">
-        <h2> subtitle Lernantino</h2>
-    </section>
-    
-    <section class="About Me">
-        <h3>About Me</h3>
-        <p></p>
+    <section class="hero"></section>
+
+    <section id="about-me" class="About Me">
+        <h2>About Me</h2>
+        <p>I am Tomomi, currently attending coding bootcamp. Moved to Utah from japan about 9 years ago for school Big fan of fine art in general. I also snowboard a lot, like 40 days per season.</p>
     </section>
 
-    <main class="Work">
-        <h3>Work</h3>
-        <section class="Surf Report"></section>
-        <section class="LED Wall"></section>
-        <section class="Calculator"></section>
-        <section class="Pastel Puzzles"></section>
-        <section class="Run Buddy"></section>
-        
+    <main id="work" class="Work">
+        <h2>Work</h2>
+        <section class="sub-container">
+            <h3>Surf Report</h3>
+        </section>
+        <section class="sub-container">
+            <h3>LED Wall</h3>
+        </section>   
+        <section class="sub-container">
+            <h3>Calculator</h3>
+        </section>
+        <section class="sub-container">
+            <h3>Pastel Puzzles</h3>
+        </section>
+        <section class="sub-container">
+            <h3>
+                <a href="http://127.0.0.1:5500/challenges/horiseon-1stweek-challenge/index.html">Horiseon</a>
+            </h3>
+            <p>*this one has a link connected to it:)*</p>
+        </section>
+
     </main>
 
-    <section class="Contact Me">
-        <h3>Contact Me</h3>
-        <ul>
-            <li>
+    <section id="contact-me" class="Contact Me">
+        <h2>Contact Me</h2>
+            <nav>
                 <a href="tel:5555555555">555-555-5555</a>
                 <a href="mailto:sampleaddress@gmail.com">sampleaddress@gmail.com</a>
                 <a href="https://github.com/tomomimiya/advancedCSS-challenge.git">GitHub</a>
-                
-            </li>
-        </ul>
+            </nav>
     </section>
 
-  </body>
+</body>
